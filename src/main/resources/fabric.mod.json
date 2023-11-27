@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "bismuth",
+	"version": "${version}",
+	"name": "Bismuth",
+	"description": "Bismuth is a Minecraft Mod that adds some untilitys.",
+	"authors": [
+		"Raphtik@GHG"
+	],
+	"contact": {
+		"homepage": "https://concrafter20.github.io/main",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bismuth/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.concrafter20.bismuth.Bismuth"
+		]
+	},
+	"mixins": [
+		"bismuth.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
